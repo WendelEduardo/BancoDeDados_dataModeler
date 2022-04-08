@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E34CC99-47AE-FE41-C717-F1800DC71869" name="Livros">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:31:41 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_livro" id="03239A86-CE17-ABA5-F8C3-1C9F8A8DCCC3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:32:22 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="C59F8675-B487-C18A-3736-658B88D447BE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:32:31 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade" id="E07C5DFD-4326-7B00-35F9-C1AA24608D85">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:33:22 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56C8A8F6-D111-5D07-9F7F-4BF618AEE57C" name="Livros PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:32:26 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03239A86-CE17-ABA5-F8C3-1C9F8A8DCCC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

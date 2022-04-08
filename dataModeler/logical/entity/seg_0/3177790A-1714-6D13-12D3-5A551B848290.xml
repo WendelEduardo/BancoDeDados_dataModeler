@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3177790A-1714-6D13-12D3-5A551B848290" name="Emprestimo">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:34:11 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_emprestimo" id="D4E4154D-6B9F-C5DB-B2BC-C824842B8A3A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:35:40 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_emprestimo" id="0A68C469-EE07-CB06-954A-B659E6189A12">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:35:46 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_devolucao" id="CB8B1886-644C-3FDF-952F-2BF11AA8FF4A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-01 14:36:14 UTC</createdTime>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_aluno" id="07A4DB6C-ECB5-5A3B-42E9-71A3896BBC05">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-08 14:54:22 UTC</createdTime>
+<generatorID>7FEB49D1-6241-BF06-089A-C0A5CDE64AD2</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<referedAttribute>8B5D2664-AC72-A066-443D-86A48C1623CE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro" id="CBDE8106-4225-75A9-75B5-C0A1E898FB4C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-08 14:55:33 UTC</createdTime>
+<generatorID>E3CF2C68-F17F-FBC6-3CDA-7CA5207A7C7E</generatorID>
+<ownerDesignName>dataModeler</ownerDesignName>
+<engineerTo>
+<item key="4CEBE4D9-5150-2722-2FCA-252244470944" value="true"/>
+</engineerTo>
+<referedAttribute>03239A86-CE17-ABA5-F8C3-1C9F8A8DCCC3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
