@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55B849F4-7B46-D7F4-D968-572F869B5957" name="MATRICULAS">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:31:51 UTC</createdTime>
+<ownerDesignName>EXERCICIO_20220513</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_aluno" id="0D85BCFF-A2C0-DBCA-320B-1D6D9A8CF784">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:53:42 UTC</createdTime>
+<generatorID>E73F9C65-1B79-CC3E-5AAF-39CD64374FED</generatorID>
+<ownerDesignName>EXERCICIO_20220513</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<referedAttribute>5D5BC0BD-FB90-2A17-F16C-0668668871DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo_curso" id="5D83C21A-97E4-298B-E5F9-C6ABBEEEBEAF">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:53:47 UTC</createdTime>
+<generatorID>75E62617-9385-9938-C3B9-7A8510F7A201</generatorID>
+<ownerDesignName>EXERCICIO_20220513</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<referedAttribute>41603518-9343-D592-B011-C4BECC418C8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45AE1CA9-54F6-15FB-2343-23C2C287025C" name="MATRICULAS PK">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:53:42 UTC</createdTime>
+<ownerDesignName>EXERCICIO_20220513</ownerDesignName>
+<engineerTo>
+<item key="70CA3B34-4689-4DFA-E26D-47E2F708C369" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0D85BCFF-A2C0-DBCA-320B-1D6D9A8CF784</attributeRef>
+<attributeRef>5D83C21A-97E4-298B-E5F9-C6ABBEEEBEAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

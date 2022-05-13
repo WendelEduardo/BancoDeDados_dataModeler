@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A9473A5F-1A6E-B7C0-CDEB-C424B83BECB1" mainViewID="C951B096-1E92-6A38-F7E3-1FB0C667DBF4">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:30:07 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

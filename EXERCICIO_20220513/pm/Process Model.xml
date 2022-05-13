@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="7D6DCA71-F7E0-0980-000B-028740BE7AEA">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-05-03 23:30:07 UTC</createdTime>
+<ownerDesignName>exercicio_normalizacao</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
